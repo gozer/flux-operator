@@ -13,7 +13,7 @@ require (
 	github.com/cnf/structhash v0.0.0-20180104161610-62a607eb0224
 	github.com/davecgh/go-spew v1.1.0
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/docker/distribution v0.0.0-20180611183926-749f6afb4572
+	github.com/docker/distribution v2.8.0+incompatible
 	github.com/docker/docker v1.13.1
 	github.com/docker/go-connections v0.3.0
 	github.com/docker/go-units v0.3.3
@@ -68,7 +68,6 @@ require (
 	golang.org/x/oauth2 v0.0.0-20180603041954-1e0a3fa8ba9a
 	golang.org/x/sys v0.0.0-20180616030259-6c888cc515d3
 	golang.org/x/text v0.3.0
-	golang.org/x/tools v0.0.0-20181214171254-3c39ce7b6105 // indirect
 	google.golang.org/appengine v1.1.0
 	gopkg.in/gcfg.v1 v1.2.3
 	gopkg.in/inf.v0 v0.9.1
@@ -79,12 +78,18 @@ require (
 	k8s.io/apimachinery v0.0.0-20180126010752-19e3f5aa3adc
 	k8s.io/apiserver v0.0.0-20180201051917-40b00dd493d8
 	k8s.io/client-go v0.0.0-20180103015815-9389c055a838
-	k8s.io/code-generator v0.0.0-20190116203031-edc41f23fa91 // indirect
-	k8s.io/gengo v0.0.0-20181113154421-fd15ee9cc2f7 // indirect
 	k8s.io/helm v2.9.1+incompatible
-	k8s.io/klog v0.1.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20180611204929-bf4056036879
 	k8s.io/kubernetes v1.9.8
 	k8s.io/utils v0.0.0-20180208044234-258e2a2fa645
 	vbom.ml/util v0.0.0-20170409195630-256737ac55c4
+)
+
+require (
+	github.com/opencontainers/image-spec v1.0.2 // indirect
+	golang.org/x/tools v0.0.0-20181214171254-3c39ce7b6105 // indirect
+	gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 // indirect
+	k8s.io/code-generator v0.0.0-20190116203031-edc41f23fa91 // indirect
+	k8s.io/gengo v0.0.0-20181113154421-fd15ee9cc2f7 // indirect
+	k8s.io/klog v0.1.0 // indirect
 )
